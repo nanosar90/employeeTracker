@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box; 
+        }
+
+        html {
+            font-size: 62.5%;
+            width: 100%; 
+        }
+
+        .container {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            width: 1080px;
+            margin: 10px auto 0 auto;
+        }
+
+        .child {
+            width: 280px
+        }
+
+        .circle {
+            display: inline-block;
+            height: 32px;
+            width: 32px;
+            border-radius: 50%;
+            background-color: rgba(0, 0, 255, 0.8);
+            text-align: center;
+            color: white;
+            padding-top: 4px;
+            font-size: 2rem;
+        }
+
+        .h3-class {
+            display: inline-block;
+            font-size: 3rem;
+            margin-left: 5px;
+        }
+
+        .card {
+            border-left: 1.5px solid rgba(128, 128, 128, 0.5);
+            margin-left: 16px;
+            padding-top: 5px;
+            padding-left: 15px;
+            min-height: 280px;
+        }
+
+        .card p {
+            font-size: 1.75rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="child">
+            <span class="circle">1</span>
+            <h3 class="h3-class">Some Stuff 1</h3>
+            <div class="card">
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque sunt animi corrupti? Deleniti optio harum excepturi eaque sint! Dolorem, voluptate voluptatem amet odit ad voluptas non reiciendis, fugit aliquid reprehenderit quo ipsam explicabo quaerat. </p>
+            </div>
+        </div>
+        <div class="child">
+            <span class="circle">2</span>
+            <h3 class="h3-class">Different Stuff 2</h3>
+            <div class="card">
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos adipisci voluptates dolorum ducimus officiis velit explicabo. Nobis vitae animi doloremque quibusdam laboriosam minus dolorum numquam ipsam quisquam dolore. Quam, porro. </p>
+            </div>
+        </div>
+        <div class="child">
+            <span class="circle">3</span>
+            <h3 class="h3-class">Unique Stuff 3</h3>
+            <div class="card">
+                <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae sed, natus illo consequatur delectus et dolorem ut earum omnis, at excepturi. Vel, eligendi exercitationem. Enim quae dolorum tenetur. Odio perferendis voluptatum unde. Illo consequuntur cupiditate ratione obcaecati ipsum iusto atque. </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
